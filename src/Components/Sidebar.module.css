@@ -1,0 +1,126 @@
+.sidebarContainer{
+  width:35%;
+  height: 100%;
+  padding: 8px;
+  background-color: #fff;
+}
+
+.appName{
+  color: #000000;
+  margin-left: 40px;
+  width: 219px;
+  height: 41px;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.groupsList{
+  overflow-y: scroll;
+  margin-top: 35px;
+  margin-left: 2%;
+  box-sizing: border-box; 
+}
+
+
+.groupItem {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.groupItem.selected {
+  border-radius: 22px 0px 0px 22px;
+  background-color: #2F2F2F2B;
+}
+.groupItem:hover {
+  background: #2F2F2F2B;
+  border-radius: 16px;
+  padding: 5px;
+}
+
+.groupIcon{
+  margin-left: 35px;
+  width: 68px;
+  height: 68px;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.groupName {
+  font-family: Roboto;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  margin-left: 35px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+}
+
+.addGroup{
+  float: right;
+  height: 60px;
+  width: 55px;
+  border-radius: 100px;
+  background-color: darkblue;
+  color:#fff;
+  cursor: pointer;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  position: absolute;
+  bottom: 15px;
+  right: 78%;
+}
+
+
+
+/*Mobile css */
+.mobileAddGrp {
+  height: 60px;
+  width: 55px;
+  border-radius: 100px;
+  background-color: darkblue;
+  color:#fff;
+  cursor: pointer;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  border: none;
+  position: absolute;
+  bottom: 8px;
+  right: 3%;
+}
+.mobileAppName {
+  color: #000000;
+  margin-left: 15%;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #888;
+}

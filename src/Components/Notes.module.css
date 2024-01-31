@@ -1,0 +1,260 @@
+.notesContainer{
+  background-color: #DAE5F5;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.notesHeader{
+  height: 58px;
+  background: darkblue;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.notesIcon{
+  margin-left: 10px;
+  width: 68px;
+  height: 68px;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.groupName{
+  font-family: Roboto;
+  font-weight: bold;
+  letter-spacing: 0.48px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color:#fff;
+}
+
+
+.notesDisplay {
+  overflow-y: scroll;
+  height: 60vh;
+  background-color: #DAE5F5;
+  padding: 20px;
+}
+
+.note {
+  box-shadow: 0px 4px 20px 0px #00000040;
+  background: #FFFFFF;
+  width: 1000px;
+  height: 180px;
+  margin: 10px;
+  padding: 12px 20px 0px 20px;
+  overflow-y: scroll;
+
+}
+
+.content {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.035em;
+  text-align: left;  
+}
+
+
+.DateAndTime{
+  display: flex;
+  justify-content:flex-end;
+}
+
+.Date {
+  margin-right: 12px;
+  color: #353535;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+}
+
+.Time {
+  margin-left: 12px;
+  margin-right: 5px;
+  color: #353535;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+}
+.dot{
+  color: #353535;
+  font-weight: bolder;
+  font-size: 17px;
+  width: 8px;
+  height: 8px;
+}
+
+.notesTextArea {
+  background: darkblue;
+  border: 1px solid #CCCCCC;
+  border-radius: 9px;
+  padding:20px;
+  height: 150px;
+  width: 1078px;
+}
+
+.TextInput {
+  height: 16vh;
+  width: 70vw;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 9px;
+  resize: none;
+  border: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+}
+.TextInput::placeholder {
+  color: #9a9a9a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+}
+
+.SendImg {
+  position: absolute;
+  bottom: 30px;
+  right: 40px;
+  cursor: pointer;
+  color: red;
+}
+
+
+
+/* mobile css*/
+.mobileNotesDisplay {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 60vh;
+  background-color: #DAE5F5;
+  padding: 2%;
+}
+.mobileBack{
+  height: 28px;
+  width: 28px;
+}
+.mobileNotesIcon{
+  margin-left: 10px;
+  width: 68px;
+  height: 68px;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.mobileNote{
+  box-shadow: 0px 4px 20px 0px #00000040;
+  background: #FFFFFF;
+  width: 60%;
+  height: 45%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 12px 15px 0px 15px;
+  overflow-y: scroll;
+}
+
+.mobileContent {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0.035em;
+  text-align: left;  
+}
+
+.mobileDateAndTime{
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+}
+
+.mobileTime {
+  color: #353535;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-left: 6px;
+}
+.mobileDot{
+  color: #353535;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.mobileDate {
+  margin-right: 6px;
+  color: #353535;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.mobileSendImg {
+  position: absolute;
+  right: 5%;
+  bottom: 8%;
+  cursor: pointer;
+}
+
+.mobileNotesTextArea {
+  background: darkblue;
+  border: 1px solid #CCCCCC;
+  padding:20px;
+  height: 17%;
+  margin-top: 2%;
+}
+.TextInputMobile {
+  height: 80%;
+  width: 96%;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 9px;
+  resize: none;
+  border: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+}
+.TextInputMobile::placeholder {
+  color: #9a9a9a;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.596px;
+}
+
+

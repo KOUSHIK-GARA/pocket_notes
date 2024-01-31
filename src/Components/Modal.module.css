@@ -1,0 +1,194 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(47, 47, 47, 0.75);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  border-radius: 6px;
+  background: #fff;
+  padding: 30px;
+  border: 1px solid #CCCCCC;
+  width: 700px;
+  height: 250px;
+}
+
+.closeButton {
+  background: transparent;
+  border: none;
+  float: right;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+
+.modalHeading {
+  padding-top: 0px;
+  margin-top: 0px;
+  font-family: Roboto;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 0.035em;
+  text-align: left;
+  color:#000000
+}
+.modalGrp {
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 500;
+  /* line-height: 44px; */
+  letter-spacing: 0.035em;
+  text-align: left;
+}
+
+.modalInput{
+  width:450px;
+  height: 40px;
+  border-radius: 22px;
+  border: 2px solid #ccc;
+  color: #000;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  margin-left: 45px;
+}
+
+.modalInput::placeholder {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  /* line-height: 37px; */
+  letter-spacing: 0.035em;
+  text-align: left;
+
+}
+
+.modalColor {
+  font-family: Roboto;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0.035em;
+  text-align: left;
+  padding-right: 30px;
+}
+.colorButton {
+  cursor: pointer;
+  margin-top: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  border: none;
+  margin-right: 10px
+}
+.colorButton:hover {
+  transform: translate3d(0px, -2px, 0px);
+}
+
+.modalCreate {
+  color: #fff;
+  cursor: pointer;
+  background: #001F8B;
+  border:none;
+  width: 154px;
+  height: 38px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.035em;
+  float: right;
+  font-family: Roboto;
+  border-radius: 11px
+}
+
+/*mobile css*/
+.mobileModalBackground {
+  width: 100vw;
+  height: 100vh;
+  background: #2F2F2FBF;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainerMobile {
+  width: 80%;
+  height: 30%;
+  border-radius: 6px;
+  background: #fff;
+  padding: 35px;
+  border: 0.88px solid #CCCCCC
+}
+
+.mobileModalGrp{
+  font-size: 22px;
+  width:30%;
+}
+.mobileModalText {
+  width: 70%;
+  height: 35px;
+  border-radius: 22px;
+  border: 2px solid #ccc;
+  color: #000;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.modalTextMobile::placeholder {
+  color: #979797;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 160%;
+  letter-spacing: 0.805px;
+}
+
+.mobileModalColor{
+  width: 30%;
+  font-size: 20px;
+}
+.mobileColorButton{
+  width:70%;
+  height: 40px;
+  width: 12%;
+  border-radius: 50%;
+  border: none;
+  margin-right: '2%';
+}
+.closeButtonMobile {
+  background: transparent;
+  border: none;
+  float: right;
+  font-size: 25px;
+  cursor: pointer;
+}
+.modalCreateMobile {
+  width: 30%;
+  margin:2%;
+  margin-top: 6%;
+  margin-left: 30%;
+  background: #001F8B;
+  border-radius: 11px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.035em;
+}
